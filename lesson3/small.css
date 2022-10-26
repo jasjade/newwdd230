@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+img {
+  max-width: 100%;
+  margin: 1.5em 0em 0em;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+header{
+    background-color: #D9D9D9;
+    margin: 0;
+    padding: 0;
+}
+h1 h2 {
+    font-weight: bold;
+}
+nav {
+    background-color: #13687B;
+    line-height: 3em;
+  }
+  nav > ul {
+    list-style-type: none;
+    padding:0;
+    text-align: center;
+    width: 100%;
+  }
+  nav ul li a {
+	display: block;
+	color: #F6F3EC;
+  font-size: 1.2em;
+  text-decoration: none;
+  }
+
+  nav a:hover {
+    background-color: #D9D9D9;
+    color: #000000;
+  }
+  nav .active {
+    text-decoration: underline overline #D9D9D9 2px;
+  }
+  
+
+
+
+/* color-scheme*/
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+  }
+.primary {
+    background-color: #13687B;
+    color: #F6F3EC;
+  }
+  .secondary {
+    background-color: #D9D9D9;
+    
+  }
+  .accent1 {
+    background-color: #DBA32C;
+    color: #F6F3EC;
+  }
+  .accent2{
+    background-color: #341D4F;
+    color: #F6F3EC;
+  }
+
+/* typography */
+.headerexample {
+    background-color: #D9D9D9;
+    color:black;
+    font-weight: bolder;
+}
+.navexample{
+    background-color: #13687B;
+    color:#F6F3EC;
+}
+.h1example{
+    color:black;
+    font-weight: bolder;    
+    background-color: white;
+  }
+  .pexample {
+    background-color: white;
+  }
+.darkpexample{
+    background-color: black;
+    color:#F6F3EC;
+}
+.type {
+  background-color: #D9D9D9;
+}
+/*target audience */
+.persona {
+  text-align: left;
+}
+.persona th {
+  background-color: #D9D9D9;
+}

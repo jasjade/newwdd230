@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&family=Lato:wght@100;300&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&family=Lato:wght@100;300&family=Merriweather&family=Montserrat&display=swap');
+body{
+   font-family: 'Montserrat', sans-serif;
+}
+h1 h2 {
+   font-family: 'Merriweather', serif;
+}
+header {
+   display: grid;
+   align-items:center;
+   background-color: #9CAF88;
+   color: #f9f6ee;
+   grid-template-columns: 150px auto;
+}
+header h1 {
+   margin: 1em;
+}
+main {
+   margin: 1em;
+}
+footer {
+  background-color: #9CAF88;
+  color: #f9f6ee;
+  align-items: center;
+}
+p {
+   margin: 1em;
+}
+img {
+   max-width: 100%;
+   margin: 1em;
+   box-shadow: 0 0 30px #f9f6ee;
+ }
+ a {
+   color: #9CAF88
+ }
+ a:hover { 
+   color: #f9f6ee;
+   background-color: #9CAF88; 
+   padding: 0.2em;
+ }
+ ul {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+ }
