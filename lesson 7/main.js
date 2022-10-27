@@ -1,7 +1,8 @@
-const images = document.querySelectorAll("[src]");
+//get all imgs with data src attributes
+const images = document.querySelectorAll("[data-src]");
 
 function preloadImage(img) {
-    const src = img.getAttribute("src");
+    const src = img.getAttribute("data- src");
     if(!src) {
         return;
     }
@@ -9,6 +10,7 @@ function preloadImage(img) {
     img.src = src;
 }
 
+//optional parapeters being set for the IntersectionalObserver
 const imgOptions = {
     threshold: 1,
     rootMargin: "0px 0px 300px 0px"
