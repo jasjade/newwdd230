@@ -42,7 +42,7 @@
         display:block;
     }
 
-    main {
+    .index {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
@@ -82,3 +82,5 @@
         grid-row: 3/4;
     }
 }
+
+/* discover page */

@@ -104,11 +104,12 @@ nav ul.open {display:block;}
 }
 
 /*main*/
-main div {
+.index div {
     padding: 5em;
     background-color: #13687B;
     margin: .5em;
 }
+
 .spot3 {
     display: none;
 }
@@ -120,7 +121,7 @@ main img {
     max-width: 100%;
     max-height: 100%;
 }
-.hero {
+#hero {
     padding: 0;
     position: relative;
 }
@@ -155,4 +156,35 @@ footer {
 footer img {
     width: 2em;  
     align-self: center;
+}
+
+
+/* discover page */
+.discover{
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    
+}
+.discover picture {
+    grid-column: 1/2;
+}
+.discover p {
+    padding-left: 1rem;
+}
+#todo {
+    grid-row: 2/3;
+    background-color: #DBA32C;
+    color:#f6f3ec;
+    padding: 1rem;
+
+}
+#population {
+    background-color: #13687B;
+    color: #f6f3ec;
+    padding: 1rem;
+}
+#income {
+    background-color: #341d4f;
+    color: #f6f3ec;
+    padding: 1rem;
 }
