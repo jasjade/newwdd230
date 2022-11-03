@@ -94,7 +94,19 @@
 
     form {
         width: 60%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
+    form h1 {
+        grid-column: 1/3;
+        text-align: center;
+    }
+    .membership_level {
+        background-color: white;
+        color: black;
+        padding: 0rem 1rem;
+    }
+    
 
 }
 
