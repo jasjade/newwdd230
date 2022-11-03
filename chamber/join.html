@@ -1,0 +1,96 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="Jasmine Dodgen Chamber of Commerse Project for WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+        <link rel="shortcut icon" href="images/favicon.png">
+        <title>Oliver Springs Chamber Page</title>
+    </head>
+    <body>
+        <header>
+            <div id="banner" class="bannerstyle"></div>
+            <a href="discover.html"><img src="images/chamberlogoround.png"></a>
+            <section class="headings">
+                <h1>Oliver Springs</h1>
+                <p class="subhead">Chamber of Commerse</p>
+            </section>
+            <div class="social">
+                <img src="images/facebook.png">
+                <img src="images/instagram.png">
+            </div>
+            <nav id="fullNav">
+                <button class id="hamburgerBtn"><span>&#9776</span><span>x</span></button>
+                <ul id="primaryNav">
+                    <li> <a href="discover.html">Discover</a></li>
+                    <li> <a href="index.html">Directory</a></li>
+                    <li class="active"> <a href="join.html">Join</a></li>
+                    <li> <a href="index.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="date"></div>
+        </header>
+
+       <main>
+            <form action="/my-handling-form-page" method="post">
+                <h2>Join our Chamber</h2>
+                <ul>
+                <li>
+                    <label for="firstname" class="required-field"> First Name:</label>
+                    <input type="text" id="firstname" name="user_first_name">
+                </li>
+                <li>
+                    <label for="lastname" class="required-field"> Last Name:</label>
+                    <input type="text" id="lastname" name="user_last_name">
+                </li>
+                <li>
+                    <label for="title">Title:</label>
+                    <input type="text" id="title" name="user_title">
+                </li>
+                <li>
+                    <label for="mail" class="required-field">E-mail:</label>
+                    <input type="email" id="mail" name="user_email">
+                </li>
+                <li>
+                <label for="phone_number" class="required-field">Cell Phone Number:</label>
+                <input type="tel" id="phone_number" name="user_phone_number">
+                </li>
+                <li>
+                    <p>membership level</p>
+                    <input type="radio" id="html" name="fav_language" value="HTML" class="membership_level">
+                    <label for="html">HTML</label><br>
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">CSS</label><br>
+                    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                    <label for="javascript">JavaScript</label>
+                </li>
+                
+                <li class="button">
+                <button type="submit">Join Today!</button>
+                </li>
+            </ul>
+                
+            </form>
+           
+       </main>
+        <footer>
+            <img src="images/chamberlogoround.png" >
+            <section class="address">
+                <h3>Oliver Springs Chamber of comerce</h3>
+                <p>123 street Oliver Springs, TN 37840</p>
+            </section>
+            <section class="contactinfo">
+                <p>info@oliverspringschamber.org</p>
+                <p>(865)266-3626</p>
+                <map>location map</map>
+            </section>
+            <span class="bottomfooter">Oliver Springs Chamber | Jasmine Dodgen | WDD 230 Project | <span id="lastModified"></span></span>
+        </footer>
+        <script src="scripts/script.js"></script>
+    </body>
+    </html>
