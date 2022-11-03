@@ -77,6 +77,9 @@
         text-align: center;
     }
     
-    
+    input, textarea {
+        width: 90%;
+        
+    }
 
 }

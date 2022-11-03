@@ -81,6 +81,20 @@
         grid-column: 4/5;
         grid-row: 3/4;
     }
+
+    /* discover page */
+    .discover{
+        display: grid;
+        grid-template-columns: 20% 1fr;
+        
+    }
+    .discover picture {
+        grid-column: 1/2;
+    }
+
+    form {
+        width: 60%;
+    }
+
 }
 
-/* discover page */
