@@ -1,0 +1,20 @@
+{
+    "companies": [
+        {
+            "name": "The Little Cup",
+            "addresses": "269 Market Lane Oliver Springs, TN 37840",
+            "phoneNumbers": "865-285-9762",
+            "websiteURLs": "thelittlecup.com",
+            "membershipLevel": "gold",
+            "logo": "https://ibb.co/fdYr6sb"
+          },
+          {
+            "name": "Maxwell Bakery",
+            "addresses": "8194 Rockledge St. Oliver Springs, TN 37840",
+            "phone numbers": "865-771-9075",
+            "website URLs": "maxwell.com",
+            "length": "membership level",
+            "logo": "https://ibb.co/CWV3v7m"
+          }
+    ]
+}
