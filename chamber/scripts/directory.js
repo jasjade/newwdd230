@@ -1,7 +1,7 @@
 
 //store the URL of the JSON file as a const variable
 const requestURL = 'https://jasjade.github.io/newwdd230/chamber/data.json';
-const cards = document.querySelector('.cards');
+const cards = document.querySelector('#cards');
 
 //the fetch() method requires at least one argument, the path to the resource (the URL of the JSON file)
 fetch(requestURL)
@@ -45,10 +45,29 @@ function displayCompanies(companies) {
     card.appendChild(h2);
     card.appendChild(p);
     card.appendChild(p2);
+    card.appendChild(link);
     
     
   
     // Add/append the existing HTML div with the cards class with the section(card)
-    document.querySelector('div.cards').appendChild(card);
+    document.querySelector('div#cards').appendChild(card);
   }
 
+
+
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector("#cards");
+
+gridbutton.addEventListener("click", () => {
+	// example using arrow function
+	display.classList.add("grid");
+	display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", showList); // example using defined function
+
+function showList() {
+	display.classList.add("list");
+	display.classList.remove("grid");
+}

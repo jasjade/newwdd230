@@ -77,6 +77,15 @@
         text-align: center;
     }
     
-    
-
+    /* directory */
+    .list section img {
+        display: block;
+        width: 200px;
+    }
+    .list section {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: left;
+    }
 }
