@@ -6,7 +6,7 @@
             "phoneNumbers": "865-285-9762",
             "websiteURLs": "thelittlecup.com",
             "membershipLevel": "gold",
-            "logo": "https://ibb.co/fdYr6sb"
+            "logo": "images/directory/1.png"
           },
           {
             "name": "Maxwell Bakery",
@@ -14,7 +14,63 @@
             "phone numbers": "865-771-9075",
             "website URLs": "maxwell.com",
             "length": "membership level",
-            "logo": "https://ibb.co/CWV3v7m"
+            "logo": "images/directory/2.png"
+          },
+          {
+            "name": "Classic Motor Community",
+            "addresses": "380 South Marlborough Lane Oliver Springs, TN 37840",
+            "phone numbers": "865-328-6668",
+            "website URLs": "maxwell.com",
+            "length": "membership level",
+            "logo": "images/directory/3.png"
+          },
+          {
+            "name": "Maxwell Bakery",
+            "addresses": "8872 Madison Lane Oliver Springs, TN 37840",
+            "phone numbers": "865-234-5981",
+            "website URLs": "maxwell.com",
+            "length": "membership level",
+            "logo": "images/directory/4.png"
+          },
+          {
+            "name": "Maxwell Bakery",
+            "addresses": "32 Mill Pond Rd. Oliver Springs, TN 37840",
+            "phone numbers": "865-329-9857",
+            "website URLs": "maxwell.com",
+            "length": "membership level",
+            "logo": "images/directory/5.png"
+          },
+          {
+            "name": "Maxwell Bakery",
+            "addresses": "10 Theatre Drive Oliver Springs, TN 37840",
+            "phone numbers": "865-823-2211",
+            "website URLs": "maxwell.com",
+            "length": "membership level",
+            "logo": "images/directory/6.png"
+          },
+          {
+            "name": "Maxwell Bakery",
+            "addresses": "710 Armstrong Dr. Oliver Springs, TN 37840",
+            "phone numbers": "865-588-1017",
+            "website URLs": "maxwell.com",
+            "length": "membership level",
+            "logo": "images/directory/7.png"
+          },
+          {
+            "name": "Maxwell Bakery",
+            "addresses": "91 Rosewood St. Oliver Springs, TN 37840",
+            "phone numbers": "865-520-4922",
+            "website URLs": "maxwell.com",
+            "length": "membership level",
+            "logo": "images/directory/8.png"
+          },
+          {
+            "name": "Maxwell Bakery",
+            "addresses": "344 Overlook Rd. Oliver Springs, TN 37840",
+            "phone numbers": "865-377-6992",
+            "website URLs": "maxwell.com",
+            "length": "membership level",
+            "logo": "images/directory/9.png"
           }
     ]
 }
