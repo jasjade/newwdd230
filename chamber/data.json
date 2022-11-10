@@ -13,7 +13,7 @@
             "addresses": "8194 Rockledge St. Oliver Springs, TN 37840",
             "phone numbers": "865-771-9075",
             "website URLs": "maxwell.com",
-            "length": "membership level",
+            "membershipLevel": "silver",
             "logo": "images/directory/2.png"
           },
           {
@@ -21,56 +21,56 @@
             "addresses": "380 South Marlborough Lane Oliver Springs, TN 37840",
             "phone numbers": "865-328-6668",
             "website URLs": "maxwell.com",
-            "length": "membership level",
+            "membershipLevel": "NP",
             "logo": "images/directory/3.png"
           },
           {
-            "name": "Maxwell Bakery",
+            "name": "Chad & anna custom planters",
             "addresses": "8872 Madison Lane Oliver Springs, TN 37840",
             "phone numbers": "865-234-5981",
-            "website URLs": "maxwell.com",
-            "length": "membership level",
+            "website URLs": "Chad&annacustomplanters.com",
+            "membershipLevel": "silver",
             "logo": "images/directory/4.png"
           },
           {
-            "name": "Maxwell Bakery",
+            "name": "fresh juice manggoes",
             "addresses": "32 Mill Pond Rd. Oliver Springs, TN 37840",
             "phone numbers": "865-329-9857",
-            "website URLs": "maxwell.com",
-            "length": "membership level",
+            "website URLs": "freshjuicemanggoes.com",
+            "membershipLevel": "gold",
             "logo": "images/directory/5.png"
           },
           {
-            "name": "Maxwell Bakery",
+            "name": "only hands",
             "addresses": "10 Theatre Drive Oliver Springs, TN 37840",
             "phone numbers": "865-823-2211",
-            "website URLs": "maxwell.com",
-            "length": "membership level",
+            "website URLs": "onlyhandsbreakfast.com",
+            "membershipLevel": "bronze",
             "logo": "images/directory/6.png"
           },
           {
-            "name": "Maxwell Bakery",
+            "name": "Daisy boutique",
             "addresses": "710 Armstrong Dr. Oliver Springs, TN 37840",
             "phone numbers": "865-588-1017",
-            "website URLs": "maxwell.com",
-            "length": "membership level",
+            "website URLs": "daisyboutique.com",
+            "membershipLevel": "silver",
             "logo": "images/directory/7.png"
           },
           {
-            "name": "Maxwell Bakery",
+            "name": "larana photography",
             "addresses": "91 Rosewood St. Oliver Springs, TN 37840",
             "phone numbers": "865-520-4922",
-            "website URLs": "maxwell.com",
-            "length": "membership level",
+            "website URLs": "laranaphotography.com",
+            "membershipLevel": "gold",
             "logo": "images/directory/8.png"
           },
           {
-            "name": "Maxwell Bakery",
+            "name": "Paucek and Lage Western Shop",
             "addresses": "344 Overlook Rd. Oliver Springs, TN 37840",
             "phone numbers": "865-377-6992",
-            "website URLs": "maxwell.com",
-            "length": "membership level",
-            "logo": "images/directory/9.png"
+            "website URLs": "PaucekLageWestern.com",
+            "membershipLevel": "bronze",
+            "logo": "images/directory/10.png"
           }
     ]
 }
