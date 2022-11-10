@@ -29,8 +29,8 @@ function displayCompanies(companies) {
   
     // Change the textContent property of the h2 element to contain the prophet's full name
     h2.textContent = `${companies.name}`;
-    p.textContent = `Date of Birth: ${companies.addresses}`;
-    p2.textContent = `Place of Birth: ${companies.phoneNumbers}`;
+    p.textContent = ` ${companies.addresses}`;
+    p2.textContent = `${companies.phoneNumbers}`;
     link.textContent = `${companies.websiteURLs}`;
     link.setAttribute('href', companies.websiteURLs);
 

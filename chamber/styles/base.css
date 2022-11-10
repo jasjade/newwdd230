@@ -186,7 +186,7 @@ footer img {
     padding: 1rem;
 }
 
-/* */
+/*join page */
 form {
     /* Center the form on the page */
     margin: 1rem auto;
@@ -215,7 +215,6 @@ form {
     display: inline-block;
     text-align: left;
   }
-
   input, textarea {
     /* To make sure that all text fields have the same font settings
        By default, textareas have a monospace font */
@@ -225,8 +224,6 @@ form {
     /* Match form field borders */
     border: 1px solid #999;
   }
-  
-
   .required-field::before {
     content: "*";
     color: red;
@@ -254,3 +251,25 @@ form {
     height: 35px;
     width: 300px;
    }
+
+/* directory */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+.cards section {
+    border: 1px solid #bbb;
+    padding: 1rem;
+    margin: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 7px rgba(0, 0, 0, 0.3);
+}
+.cards p {
+    margin:0rem;
+}
+.cards h2 {
+    margin:.5rem;
+}
+.cards img{ margin: .5rem;}
