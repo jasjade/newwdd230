@@ -1,6 +1,6 @@
 
 //store the URL of the JSON file as a const variable
-const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
+const requestURL = 'https://jasjade.github.io/newwdd230/chamber/data.json';
 const cards = document.querySelector('.cards');
 
 //the fetch() method requires at least one argument, the path to the resource (the URL of the JSON file)
