@@ -14,7 +14,6 @@
     </head>
     <body>
         <header>
-            <!--header must contain a logo, site name, and navigation (nav), spanning the entire screen in the large view-->
             <div id="banner" class="bannerstyle"></div>
             <a href="index.html"><img src="images/chamberlogoround.png"></a>
             <section class="headings">
@@ -36,9 +35,19 @@
             </nav>
             <div class="date"></div>
         </header>
+
+
        <main>
-           
+            <h1>OpenWeatherMap.org API Test</h1>
+            <p>The current temperature in Fairbanks, Alaska is <span id="current-temp"></span> &deg;F</p>
+            <h2>Current Condition Icon</h2>
+            <figure>
+            <img src="" alt="" id="weather-icon" />
+            <figcaption></figcaption>
+            </figure>
        </main>
+
+       
         <footer>
             <img src="images/chamberlogoround.png" >
             <section class="address">
@@ -53,5 +62,6 @@
             <span class="bottomfooter">Oliver Springs Chamber | Jasmine Dodgen | WDD 230 Project | <span id="lastModified"></span></span>
         </footer>
         <script src="scripts/script.js"></script>
+        <script src="scripts/weatherapi.js"></script>
     </body>
     </html>
