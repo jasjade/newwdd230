@@ -31,7 +31,6 @@
                 <li> <a href="directory.html">Directory</a></li>
                 <li> <a href="join.html">Join</a></li>
                 <li> <a href="index.html">Contact</a></li>
-                <li><a href="data.json">json</a></li>
             </ul>
         </nav>
         <div class="date"></div>
@@ -50,7 +49,11 @@
         <div class="event">Event</div>
         <div class="weather">
             <h3>Weather</h3>
-            <p>33 F Wind Speed: Wind Chill:</p>
+            <figure>
+                <img src="" alt="" id="weather-icon" />
+                <figcaption></figcaption>
+            </figure>
+            <p><span id="current-temp"></span> &deg;F <br>Wind Speed: <span id="windSpeed"></span><br>Wind Chill: <span id="windChill"></span></p>
         </div>
         <div class="news">News Release</div>
         <div class="spot1">Spotlight 1</div>
@@ -70,8 +73,9 @@
             <map>location map</map>
         </section>
         <span class="bottomfooter">Oliver Springs Chamber | Jasmine Dodgen | WDD 230 Project | <span id="lastModified"></span></span>
-        
+        <a href="data.json">json</a>
     </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
