@@ -28,16 +28,60 @@
             <nav id="fullNav">
                 <button class id="hamburgerBtn"><span>&#9776</span><span>x</span></button>
                 <ul id="primaryNav">
-                    <li class="active"> <a href="discover.html">Discover</a></li>
+                    <li> <a href="discover.html">Discover</a></li>
                     <li> <a href="directory.html">Directory</a></li>
-                    <li> <a href="join.html">Join</a></li>
-                    <li> <a href="index.html">Contact</a></li>
+                    <li class="active"> <a href="join.html">Join</a></li>
+                    <li> <a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
             <div class="date"></div>
         </header>
        <main>
-           
+        <form action="/my-handling-form-page" method="post">
+                
+            <h1>Join our Chamber</h1>
+            
+            <div class="form_left">
+            <ul>
+            <li>
+                <label > <div class="required-field">First Name:</div><input type="text" name="user_first_name" required></label>
+            </li>
+            <li>
+                <label><div class="required-field">Last Name:</div><input type="text" name="user_last_name" required></label>
+            </li>
+            <li>
+                <label> <div> Title:</div><input type="text" name="user_title"></label>
+            </li>
+            <li>
+                <label for="mail"><div class="required-field">E-mail:</div><input type="email" name="user_email" required></label>
+            </li>
+            <li>
+                <label><div class="required-field">Cell Phone Number:</div><input type="tel" name="user_phone_number" required></label>
+            
+            </li>
+            </ul>
+            </div>
+            <div class="membership_level">
+                <h3>membership level</h3>
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">NP Membership</label><br>
+                <p>NP Membership is for non profit organizations and there is no fee.</p>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">Bronze Membership</label><br>
+                <p>offers the last amount of insider perks</p>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">Silver Membership</label><br>
+                <p>offers same as bronze as well as aditional perks</p>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">Gold Membership</label>
+                <p>offers same as bronze and silver as well as aditional perks</p>
+            </div>
+            
+            
+            <button class="button" type="submit">Join Today!</button>
+            
+            
+        </form>
        </main>
         <footer>
             <img src="images/chamberlogoround.png" >

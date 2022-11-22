@@ -9,11 +9,12 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    //console.table(jsonObject);  // temporary checking for valid response and data parsing
+    console.table(jsonObject);  // temporary checking for valid response and data parsing
     //store the results of the converted response into an array 
     const companies = jsonObject['companies'];
-    // loop through every record and process each one into its own 'card' (HTML output), one at a time. 
-    companies.forEach(displayCompanies);
+    //const membership = jsonObject['membershipLevel'];
+    //var result = jsonObject.filter((x)=>x.membershipLevel === "gold");
+    //console.log(result);
   });
 
 
@@ -55,19 +56,3 @@ function displayCompanies(companies) {
 
 
 
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-const display = document.querySelector("#cards");
-
-gridbutton.addEventListener("click", () => {
-	// example using arrow function
-	display.classList.add("grid");
-	display.classList.remove("list");
-});
-
-listbutton.addEventListener("click", showList); // example using defined function
-
-function showList() {
-	display.classList.add("list");
-	display.classList.remove("grid");
-}
