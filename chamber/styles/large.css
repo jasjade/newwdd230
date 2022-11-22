@@ -4,7 +4,6 @@
     /* css assigned to an id is more powerful than css assigned to a class*/
     nav ul#primaryNav{
         display:flex;
-        margin-left: 2vw;
         border-left: 1px solid rgba(0,0,0,0.3);
 
     }
@@ -16,7 +15,7 @@
         background-color: #13687B;
         grid-column: 3/4;
         grid-row: 2;
-        margin: 0.5em;
+        margin: 1.5rem;
 
     }
     .social {
