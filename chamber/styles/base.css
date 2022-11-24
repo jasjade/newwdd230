@@ -109,6 +109,13 @@ nav ul.open {display:block;}
     background-color: #13687B;
     margin: .5em;
 }
+.event img {
+    height: 100px;
+    align-self: center;
+}
+.event {
+    display: flex;
+}
 
 .spot3 {
     display: none;

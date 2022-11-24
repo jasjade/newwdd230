@@ -5,7 +5,7 @@
             "addresses": "269 Market Lane Oliver Springs, TN 37840",
             "phoneNumbers": "865-285-9762",
             "websiteURLs": "thelittlecup.com",
-            "membershipLevel": "gold",
+            "membershipLevel": 1,
             "logo": "images/directory/1.png"
           },
           {
@@ -13,7 +13,7 @@
             "addresses": "8194 Rockledge St. Oliver Springs, TN 37840",
             "phoneNumbers": "865-771-9075",
             "websiteURLs": "maxwell.com",
-            "membershipLevel": "silver",
+            "membershipLevel": 2,
             "logo": "images/directory/2.png"
           },
           {
@@ -21,7 +21,7 @@
             "addresses": "380 South Marlborough Lane Oliver Springs, TN 37840",
             "phoneNumbers": "865-328-6668",
             "websiteURLs": "maxwell.com",
-            "membershipLevel": "NP",
+            "membershipLevel": 4,
             "logo": "images/directory/3.png"
           },
           {
@@ -29,7 +29,7 @@
             "addresses": "8872 Madison Lane Oliver Springs, TN 37840",
             "phoneNumbers": "865-234-5981",
             "websiteURLs": "Chad&annacustomplanters.com",
-            "membershipLevel": "silver",
+            "membershipLevel": 2,
             "logo": "images/directory/4.png"
           },
           {
@@ -37,7 +37,7 @@
             "addresses": "32 Mill Pond Rd. Oliver Springs, TN 37840",
             "phoneNumbers": "865-329-9857",
             "websiteURLs": "freshjuicemanggoes.com",
-            "membershipLevel": "gold",
+            "membershipLevel": 1,
             "logo": "images/directory/5.png"
           },
           {
@@ -45,7 +45,7 @@
             "addresses": "10 Theatre Drive Oliver Springs, TN 37840",
             "phoneNumbers": "865-823-2211",
             "websiteURLs": "onlyhandsbreakfast.com",
-            "membershipLevel": "bronze",
+            "membershipLevel": 3,
             "logo": "images/directory/6.png"
           },
           {
@@ -53,7 +53,7 @@
             "addresses": "710 Armstrong Dr. Oliver Springs, TN 37840",
             "phoneNumbers": "865-588-1017",
             "websiteURLs": "daisyboutique.com",
-            "membershipLevel": "silver",
+            "membershipLevel": 2,
             "logo": "images/directory/7.png"
           },
           {
@@ -61,7 +61,7 @@
             "addresses": "91 Rosewood St. Oliver Springs, TN 37840",
             "phoneNumbers": "865-520-4922",
             "websiteURLs": "laranaphotography.com",
-            "membershipLevel": "gold",
+            "membershipLevel": 1,
             "logo": "images/directory/8.png"
           },
           {
@@ -69,7 +69,7 @@
             "addresses": "344 Overlook Rd. Oliver Springs, TN 37840",
             "phoneNumbers": "865-377-6992",
             "websiteURLs": "PaucekLageWestern.com",
-            "membershipLevel": "bronze",
+            "membershipLevel": 3,
             "logo": "images/directory/10.png"
           }
     ]

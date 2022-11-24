@@ -42,7 +42,9 @@
     .event {
         grid-column: 1;
         grid-row: 5;
-        
+    }
+    .event img {
+        height: 300px;
     }
     .weather {
         grid-column: 2;
