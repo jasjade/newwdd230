@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Jasmine Dodgen Bountiful Foods Project for WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <title>Bountiful Foods Index Page</title>
+</head>
+<body>
+    <header>
+        <div id="banner" class="bannerstyle"></div>
+        <img src="images/logo.png" >
+        
+        <nav id="fullNav">
+            <button class id="hamburgerBtn"><span>&#9776</span><span>x</span></button>
+            <ul id="primaryNav">
+                <li class="active"> <a href="index.html">Home</a></li>
+                <li> <a href="fresh.html">Fresh</a></li>
+                <li> <a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+            <li>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user_name">
+            </li>
+            <li>
+              <label for="mail">E-mail:</label>
+              <input type="email" id="mail" name="user_email">
+            </li>
+            <li>
+              <label for="phone">Phone Number:</label>
+              <textarea id="phone" name="user_phone"></textarea>
+            </li>
+            <li class="button">
+              <button type="submit">Create your Masterpiece</button>
+            </li>
+           </ul>
+        </form>
+
+    </main>
+    <footer>
+        <img src="images/logo.png" >
+        <section class="address">
+            <h3>Bountiful Foods</h3>
+            <p>123 Fresh St. Carlsbad, California 92008</p>
+        </section>
+        <section class="contactinfo">
+            <p>info@bountifulfoods.org</p>
+            <p>(760)123-4567</p>
+            <div class="social">
+                <img src="images/facebook.png" href="https://www.facebook.com/">
+                <img src="images/instagram.png" href="https://www.instagram.com/">
+            </div>
+        </section>
+        <span class="bottomfooter">Bountiful Foods | Jasmine Dodgen | WDD 230 Final Project </span>
+    </footer>
+    <script src="scripts/freshForm.js"></script>
+</body>
+</html>
