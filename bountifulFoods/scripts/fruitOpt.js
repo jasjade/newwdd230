@@ -1,7 +1,7 @@
 
 //store the URL of the JSON file as a const variable
-const requestURL = 'https://jasjade.github.io/newwdd230/chamber/data.json';
-const cards = document.querySelector('#cards');
+const requestURL = 'https://brotherblazzard.github.io/canvas-content/fruit.json';
+const fruit1 = document.querySelector('#fruit1');
 
 //the fetch() method requires at least one argument, the path to the resource (the URL of the JSON file)
 fetch(requestURL)
