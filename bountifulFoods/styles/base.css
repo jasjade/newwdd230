@@ -24,6 +24,18 @@ header img {
     width: 200px;
     margin: 1rem;
 }
+nav ul {display:none;}
+nav ul.open {display:block;}
+#hamburgerBtn {
+    border: none;
+    width: 100%;
+    font-size: 100px;
+}
+#hamburgerBtn span:nth-child(1) {display:block}
+#hamburgerBtn span:nth-child(2) {display:none}
+
+#hamburgerBtn.open span:nth-child(1) {display:none}
+#hamburgerBtn.open span:nth-child(2) {display:block}
 
 
 #cta {
@@ -49,6 +61,7 @@ header img {
     font-size:50px;
     color: white;
 }
+.infoCard img {display: none;}
 footer{
     display: flex;
     flex-direction: column;
