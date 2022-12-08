@@ -16,5 +16,34 @@
     nav ul li {
         padding: 2rem;
     }
+    .indexTop {
+        display: flex;
+        flex-direction: row;
+    }
+    .infoCard{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .infoCard img {
+        display: block;
+        height: 300px;
+    }
+
+    .medTop{
+        display: flex;
+        flex-direction: row;
+    }
+    .medBot {
+        display: flex;
+        flex-direction: row;
+    }
+    .locations section {
+        display: flex;
+        flex-direction: column;
+    }
+     .locations img {
+        width: 150 px;
+        height: 150 px;
+     }
 
 }

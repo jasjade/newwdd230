@@ -3,6 +3,22 @@
     h1 {
         font-size: 30px;
     }
-    
+    .locations {
+        display: flex;
+        flex-direction: row;
+    }
+    .locations section {
+        display: flex;
+        flex-direction: column;
+    }
+   .cta img {
+    width: 1500px;
+   }
+   .infoCard img {
+    height: 500px;
+   }
+   .cta button {
+    width: 300px;
+}
     
 }
