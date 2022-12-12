@@ -46,4 +46,21 @@
         height: 150 px;
      }
 
+    .midfoot {
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+    }
+    
+
+    .social {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .freshBanner h1 {
+        font-size: 100px;
+        top: 30%;
+    }
+
 }

@@ -45,10 +45,40 @@
                 <p>You've submitted <span class="info"></span>specialty drinks so far. </p>
             </div>
         </div>
-        <h3>FIND US TODAY at any of our local food truck locations</h3>
-        <div class="Weather">
-
+        
+        <div class="weather">
+            <h2>Weather</h2>
+            <figure>
+                <img src="" alt="" id="weather-icon" />
+                <figcaption></figcaption>
+            </figure>
+            <p><span id="current-temp"></span> &deg;F <br>Humidity: <span id="humidity"></span></p>
+        </div>  
+        <div class="daily">
+            <div>
+                <figure>
+                    <img src="" alt="" id="iconDay1" />
+                    <figcaption id="capDay1"></figcaption>
+                </figure>
+                <p><span id="tempDay1"></span>&deg;F</p>
+            </div>
+            <div>
+                <figure>
+                    <img src="" alt="" id="iconDay2" />
+                    <figcaption id="capDay2"></figcaption>
+                </figure>
+                <p><span id="tempDay2"></span>&deg;F</p>
+            </div>
+            <div>
+                <figure>
+                    <img src="" alt="" id="iconDay3" />
+                    <figcaption id="capDay3"></figcaption>
+                </figure>
+                <p><span id="tempDay3"></span>&deg;F</p>
+            </div>
         </div>
+
+        <h3>FIND US TODAY at any of our local food truck locations</h3>
         <div class="locations">
             <div class="medTop">
                 <section>
@@ -85,21 +115,23 @@
        </main>
         <footer>
             <img src="images/logo.png" >
-            <section class="address">
-                <h3>Bountiful Foods</h3>
-                <p>123 Fresh St. Carlsbad, California 92008</p>
-            </section>
-            <section class="contactinfo">
-                <p>info@bountifulfoods.org</p>
-                <p>(760)123-4567</p>
+            <div class="midfoot">
+                <section class="address">
+                    <h3>Bountiful Foods</h3>
+                    <p>123 Fresh St. Carlsbad, California 92008</p>
+                    <p> </p>
+                    <p>info@bountifulfoods.org</p>
+                    <p>(760)123-4567</p>
+                </section>
                 <div class="social">
                     <img src="images/facebook.png" href="https://www.facebook.com/">
                     <img src="images/instagram.png" href="https://www.instagram.com/">
-                    <a href="fruit.json">json</a>
                 </div>
-            </section>
+            </div>
             <span class="bottomfooter">Bountiful Foods | Jasmine Dodgen | WDD 230 Final Project </span>
+            <a href="fruit.json">json</a>
         </footer>
         <script src="scripts/script.js"></script>
+        <script src="scripts/weather.js"></script>
     </body>
     </html>

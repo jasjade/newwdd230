@@ -19,6 +19,16 @@
    }
    .cta button {
     width: 300px;
-}
+    }
+    .midfoot {
+        gap: 10rem;
+    }
+
+    .freshBanner h1 {
+        font-size: 150px;
+        left: 40%;
+        
+    }
+
     
 }
