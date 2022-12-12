@@ -16,10 +16,9 @@ fetch(requestURL)
     const fruits = jsonObject['fruits'];
     // loop through every record and process each one into its own 'card' (HTML output), one at a time. 
     
-    fruits.forEach(displayfruits1);
-  
-    //fruits.forEach(displayfruits2);
-    //fruits.forEach(displayfruits3);
+    fruits.map(displayfruits1);
+    fruits.map(displayfruits2);
+    fruits.map(displayfruits3);
   });
     
 
@@ -31,6 +30,23 @@ function displayfruits1(fruits) {
     line.setAttribute('value', fruits.name);
     // Add/append the section(card) with the option element
     fruit1.appendChild(line);
-    //fruit2.appendChild(line);
+  }
+  function displayfruits2(fruits) {
+    // Create elements to add to the document
+    let line2 = document.createElement('option');
+    // Change the textContent property 
+    line2.textContent = `${fruits.name}`;
+    line2.setAttribute('value', fruits.name);
+    // Add/append the section(card) with the option element
+    fruit2.appendChild(line2);
+  }
+  function displayfruits3(fruits) {
+    // Create elements to add to the document
+    let line3 = document.createElement('option');
+    // Change the textContent property 
+    line3.textContent = `${fruits.name}`;
+    line3.setAttribute('value', fruits.name);
+    // Add/append the section(card) with the option element
+    fruit3.appendChild(line3);
   }
   
