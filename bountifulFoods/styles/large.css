@@ -20,6 +20,17 @@
    .cta button {
     width: 300px;
     }
+    .allWeather {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        font-size: 25px;
+    }
+    .oranges {
+        display: block;
+        height: 36rem;
+    }
+    
     .midfoot {
         gap: 10rem;
     }
@@ -30,7 +41,9 @@
         
     }
 
-    
+    .locations section { 
+        margin-top: 1rem;
+    }
 
     
 }
