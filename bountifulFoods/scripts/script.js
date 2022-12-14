@@ -8,3 +8,11 @@ function toggleMenu(){
 const x = document.getElementById('hamburgerBtn')
 x.onclick = toggleMenu;
 
+//footer last modified date
+function modified(){
+    let d = new Date();
+    let year = d.getFullYear();
+   
+  document.querySelector('#year').textContent = year;
+  document.getElementById('modified').innerHTML = "Last Updated: "+(document.lastModified);
+}

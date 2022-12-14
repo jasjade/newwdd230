@@ -14,8 +14,7 @@ fetch(requestURL)
     console.table(jsonObject);  // temporary checking for valid response and data parsing
     //store the results of the converted response into an array 
     const fruits = jsonObject['fruits'];
-    // loop through every record and process each one into its own 'card' (HTML output), one at a time. 
-    
+// create new arrays    
     fruits.map(displayfruits1);
     fruits.map(displayfruits2);
     fruits.map(displayfruits3);
