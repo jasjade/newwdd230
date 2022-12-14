@@ -8,7 +8,9 @@ formElement.addEventListener('submit', function(e) {
     // stop the form from doing the default action
     e.preventDefault();
     // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-    feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+    feedbackElement.innerHTML = `Contact info: <br>${formElement.user_name.value} <br>${formElement.user_email.value} <br>${formElement.user_phone.value}<br> 
+    Fruit:<br>${formElement.fruit1.value} <br>${formElement.fruit2.value} <br>${formElement.fruit3.value}<br> 
+    Message: <br>${formElement.user_message.value}`;
     // make the feedback element visible.
     feedbackElement.style.display = "block";
     // add a class to move everything down so our message doesn't cover it.

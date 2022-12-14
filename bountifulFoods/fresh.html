@@ -19,22 +19,21 @@
         <nav id="fullNav">
             <button class id="hamburgerBtn"><span>&#9776</span><span>x</span></button>
             <ul id="primaryNav">
-                <li class="active"> <a href="index.html">Home</a></li>
-                <li> <a href="fresh.html">Fresh</a></li>
+                <li> <a href="index.html">Home</a></li>
+                <li class="active"> <a href="fresh.html">Fresh</a></li>
                 <li> <a href="about.html">About</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <div class="freshBanner" id="frehBanner">
-           <h1>Customize Your Drink</h1>
+           <!--<h1>Customize Your Drink</h1>-->
            <picture>
             <source srcset="images/longFresh-min.png" media ="(min-width: 1024px)" loading="lazy">
             <img src="images/smallFresh-min.png" alt="fruit on wooden background">
            </picture>
             
         </div>
-
         <form action="/my-handling-form-page" method="post">
             <ul>
             <li>
@@ -69,10 +68,13 @@
                 <textarea id="msg" name="user_message"></textarea>
             </li>
             <li class="button">
-              <button type="submit">Create your Masterpiece</button>
+              <button type="submit" id="freshBtn">Create your Masterpiece</button>
             </li>
            </ul>
         </form>
+        <div id="feedback">
+
+        </div>
 
     </main>
     <footer>
@@ -91,7 +93,9 @@
         </section>
         <span class="bottomfooter">Bountiful Foods | Jasmine Dodgen | WDD 230 Final Project </span>
     </footer>
+    <script src="scripts/script.js"></script>
     <script src="scripts/freshForm.js"></script>
     <script src="scripts/fruitOpt.js"></script>
+    <script src="scripts/numDrinks.js"></script>
 </body>
 </html>
