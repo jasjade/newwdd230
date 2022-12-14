@@ -6,6 +6,7 @@ h1, h2, h3 {
 }
 body {
     font-family:  sans-serif;
+    margin: 0rem 1rem;
 }
 
 img {
@@ -179,5 +180,10 @@ input, textarea {
     border: 1px solid #999;
 }
 .contactForm input, textarea {
-    width: 80%
+    width: 80%;
+}
+
+
+iframe {
+    width: 100%;
 }

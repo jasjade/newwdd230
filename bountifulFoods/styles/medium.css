@@ -76,4 +76,12 @@
         top: 30%;
     }
 
+    /*about*/
+    .about {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+    
+
 }
